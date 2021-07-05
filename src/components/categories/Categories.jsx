@@ -1,7 +1,6 @@
 import { Button, Grid } from '@material-ui/core';
 import { connect } from 'react-redux';
-import { active } from '../../store/categories-reducer';
-
+import { active } from '../../store/actions';
 const activeCategories = (props) => {
   return (
     <div>
