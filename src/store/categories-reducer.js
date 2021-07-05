@@ -32,10 +32,3 @@ let initialState = {
   
   export default categories;
   
-  // actions:
-  export const active = (name) => {
-    return {
-      type: 'ACTIVE',
-      payload: name,
-    };
-  };
