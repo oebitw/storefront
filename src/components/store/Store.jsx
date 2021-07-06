@@ -13,6 +13,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
+
 const Store = (props) => {
   const classes = useStyles();
   let category = props.activeList.activeCategories.display_name;
@@ -51,8 +53,10 @@ const Store = (props) => {
   );
 };
 
+
 const mapStateToProps = (state) => ({
   activeList: state.categories,
 });
+
 
 export default connect(mapStateToProps)(Store);
